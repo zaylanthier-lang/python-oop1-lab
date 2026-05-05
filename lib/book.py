@@ -17,7 +17,7 @@ class Book:
         if isinstance(page_count, int):
             self._page_count = page_count
         else:
-            print("page_count must be an integer.")
+            print("page_count must be an integer")
 
     # Simulates turning a page in the book
     def turn_page(self):
